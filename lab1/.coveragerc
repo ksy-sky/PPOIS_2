@@ -1,0 +1,4 @@
+[run]
+omit = 
+    src/interfaces/cli_interface.py
+    tests/test_cli*.py

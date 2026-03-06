@@ -1,0 +1,63 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.python-version
+*.pyc
+*.pyo
+*.pyd
+
+# Тесты и покрытие
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.cache/
+*.cover
+*.hypothesis/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Диаграммы (исходники, если не хочешь их пушить)
+*.puml
+!docs/*.puml
+
+# Данные (кроме примера)
+data/
+*.json
+!data/kindergarten_state.json
+
+# Логи
+*.log
+logs/
+
+# Дистрибутивы
+dist/
+build/
+*.egg-info/
+
+# Jupyter (если есть)
+.ipynb_checkpoints/
+*.ipynb
+
+# Системные файлы
+Thumbs.db
+desktop.ini
+venv/
