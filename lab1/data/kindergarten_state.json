@@ -1,0 +1,199 @@
+{
+    "teacher": {
+        "name": "Анна Петровна"
+    },
+    "children": [
+        {
+            "name": "Маша",
+            "age": 4,
+            "state": "playing"
+        },
+        {
+            "name": "Петя",
+            "age": 5,
+            "state": "awake"
+        },
+        {
+            "name": "Даша",
+            "age": 3,
+            "state": "left"
+        },
+        {
+            "name": "Коля",
+            "age": 2,
+            "state": "awake"
+        },
+        {
+            "name": "Соня",
+            "age": 6,
+            "state": "hungry"
+        },
+        {
+            "name": "Вика",
+            "age": 4,
+            "state": "left"
+        }
+    ],
+    "parents": [
+        {
+            "name": "Ольга",
+            "child_name": "Маша"
+        },
+        {
+            "name": "Иван",
+            "child_name": "Петя"
+        },
+        {
+            "name": "Елена",
+            "child_name": "Даша"
+        },
+        {
+            "name": "Сергей",
+            "child_name": "Коля"
+        },
+        {
+            "name": "Марина",
+            "child_name": "Соня"
+        },
+        {
+            "name": "Лера",
+            "child_name": "Вика"
+        }
+    ],
+    "materials": [
+        {
+            "title": "Краски",
+            "quantity": 10
+        },
+        {
+            "title": "Пластилин",
+            "quantity": 6
+        },
+        {
+            "title": "Цветная бумага",
+            "quantity": 18
+        },
+        {
+            "title": "Клей",
+            "quantity": 3
+        },
+        {
+            "title": "Карандаши",
+            "quantity": 15
+        },
+        {
+            "title": "Кисточки",
+            "quantity": 7
+        }
+    ],
+    "games": [
+        {
+            "name": "Лото",
+            "description": "Классическое лото с картинками",
+            "min_age": 3,
+            "max_age": 6,
+            "required_materials": [],
+            "is_educational": false
+        },
+        {
+            "name": "Мозаика",
+            "description": "Собираем узоры из кусочков",
+            "min_age": 4,
+            "max_age": 7,
+            "required_materials": [],
+            "is_educational": false
+        },
+        {
+            "name": "Пазлы",
+            "description": "Складываем картинку",
+            "min_age": 3,
+            "max_age": 5,
+            "required_materials": [],
+            "is_educational": false
+        },
+        {
+            "name": "Домино",
+            "description": "Игра с картинками",
+            "min_age": 3,
+            "max_age": 6,
+            "required_materials": [],
+            "is_educational": false
+        },
+        {
+            "name": "Рисование",
+            "description": "Учимся рисовать красками",
+            "min_age": 3,
+            "max_age": 6,
+            "required_materials": [
+                "Краски",
+                "Кисточки",
+                "Цветная бумага"
+            ],
+            "is_educational": true
+        },
+        {
+            "name": "Лепка",
+            "description": "Лепим фигурки из пластилина",
+            "min_age": 3,
+            "max_age": 6,
+            "required_materials": [
+                "Пластилин"
+            ],
+            "is_educational": true
+        },
+        {
+            "name": "Аппликация",
+            "description": "Делаем поделки из бумаги",
+            "min_age": 4,
+            "max_age": 7,
+            "required_materials": [
+                "Цветная бумага",
+                "Клей"
+            ],
+            "is_educational": true
+        },
+        {
+            "name": "Конструирование",
+            "description": "Строим из кубиков",
+            "min_age": 2,
+            "max_age": 5,
+            "required_materials": [
+                "Кубики"
+            ],
+            "is_educational": true
+        }
+    ],
+    "groups": [
+        {
+            "name": "ясли",
+            "children": [
+                "Коля"
+            ]
+        },
+        {
+            "name": "младшая",
+            "children": [
+                "Даша",
+                "Вика"
+            ]
+        },
+        {
+            "name": "средняя",
+            "children": [
+                "Маша"
+            ]
+        },
+        {
+            "name": "старшая",
+            "children": [
+                "Петя"
+            ]
+        },
+        {
+            "name": "подготовительная",
+            "children": [
+                "Соня"
+            ]
+        }
+    ]
+}
