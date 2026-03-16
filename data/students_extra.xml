@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student>
+    <student_name>Родионов Владимир Максимович</student_name>
+    <father_name>Родионов Максим Владимирович</father_name>
+    <father_income>219785.9</father_income>
+    <mother_name>Родионова Вера Тимофеевна</mother_name>
+    <mother_income>299167.88</mother_income>
+    <brothers>1</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Родионова Снежана Максимовна</student_name>
+    <father_name>Родионов Максим Владимирович</father_name>
+    <father_income>219785.9</father_income>
+    <mother_name>Родионова Вера Тимофеевна</mother_name>
+    <mother_income>299167.88</mother_income>
+    <brothers>2</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Родионов Владислав Максимович</student_name>
+    <father_name>Родионов Максим Владимирович</father_name>
+    <father_income>219785.9</father_income>
+    <mother_name>Родионова Вера Тимофеевна</mother_name>
+    <mother_income>299167.88</mother_income>
+    <brothers>1</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Григорьев Артем Игоревич</student_name>
+    <father_name>Григорьев Игорь Владимирович</father_name>
+    <father_income>261459.93</father_income>
+    <mother_name>Григорьева Любовь Денисовна</mother_name>
+    <mother_income>164023.49</mother_income>
+    <brothers>1</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Григорьева Тамара Игоревна</student_name>
+    <father_name>Григорьев Игорь Владимирович</father_name>
+    <father_income>261459.93</father_income>
+    <mother_name>Григорьева Любовь Денисовна</mother_name>
+    <mother_income>164023.49</mother_income>
+    <brothers>3</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Григорьев Петр Игоревич</student_name>
+    <father_name>Григорьев Игорь Владимирович</father_name>
+    <father_income>261459.93</father_income>
+    <mother_name>Григорьева Любовь Денисовна</mother_name>
+    <mother_income>164023.49</mother_income>
+    <brothers>1</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Захарова Екатерина Станиславовна</student_name>
+    <father_name>Захаров Станислав Аркадиевич</father_name>
+    <father_income>243838.39</father_income>
+    <mother_name>Захарова Зоя Тимуровна</mother_name>
+    <mother_income>245696.31</mother_income>
+    <brothers>1</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Захарова Жанна Станиславовна</student_name>
+    <father_name>Захаров Станислав Аркадиевич</father_name>
+    <father_income>243838.39</father_income>
+    <mother_name>Захарова Зоя Тимуровна</mother_name>
+    <mother_income>245696.31</mother_income>
+    <brothers>1</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Захарова Нина Станиславовна</student_name>
+    <father_name>Захаров Станислав Аркадиевич</father_name>
+    <father_income>243838.39</father_income>
+    <mother_name>Захарова Зоя Тимуровна</mother_name>
+    <mother_income>245696.31</mother_income>
+    <brothers>1</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Захаров Максим Станиславович</student_name>
+    <father_name>Захаров Станислав Аркадиевич</father_name>
+    <father_income>243838.39</father_income>
+    <mother_name>Захарова Зоя Тимуровна</mother_name>
+    <mother_income>245696.31</mother_income>
+    <brothers>0</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Щербаков Матвей Романович</student_name>
+    <father_name>Щербаков Роман Матвеевич</father_name>
+    <father_income>68697.47</father_income>
+    <mother_name>Щербакова Ирина Степановна</mother_name>
+    <mother_income>90980.76</mother_income>
+    <brothers>0</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Щербакова Елизавета Романовна</student_name>
+    <father_name>Щербаков Роман Матвеевич</father_name>
+    <father_income>68697.47</father_income>
+    <mother_name>Щербакова Ирина Степановна</mother_name>
+    <mother_income>90980.76</mother_income>
+    <brothers>1</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Новиков Тимур Владимирович</student_name>
+    <father_name>Новиков Владимир Андреевич</father_name>
+    <father_income>170645.34</father_income>
+    <mother_name>Новикова Жанна Ярославовна</mother_name>
+    <mother_income>115878.61</mother_income>
+    <brothers>2</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Новиков Кирилл Владимирович</student_name>
+    <father_name>Новиков Владимир Андреевич</father_name>
+    <father_income>170645.34</father_income>
+    <mother_name>Новикова Жанна Ярославовна</mother_name>
+    <mother_income>115878.61</mother_income>
+    <brothers>2</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Новикова Диана Владимировна</student_name>
+    <father_name>Новиков Владимир Андреевич</father_name>
+    <father_income>170645.34</father_income>
+    <mother_name>Новикова Жанна Ярославовна</mother_name>
+    <mother_income>115878.61</mother_income>
+    <brothers>3</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Новикова Яна Владимировна</student_name>
+    <father_name>Новиков Владимир Андреевич</father_name>
+    <father_income>170645.34</father_income>
+    <mother_name>Новикова Жанна Ярославовна</mother_name>
+    <mother_income>115878.61</mother_income>
+    <brothers>3</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Новиков Геннадий Владимирович</student_name>
+    <father_name>Новиков Владимир Андреевич</father_name>
+    <father_income>170645.34</father_income>
+    <mother_name>Новикова Жанна Ярославовна</mother_name>
+    <mother_income>115878.61</mother_income>
+    <brothers>2</brothers>
+    <sisters>5</sisters>
+  </student>
+  <student>
+    <student_name>Новикова Людмила Владимировна</student_name>
+    <father_name>Новиков Владимир Андреевич</father_name>
+    <father_income>170645.34</father_income>
+    <mother_name>Новикова Жанна Ярославовна</mother_name>
+    <mother_income>115878.61</mother_income>
+    <brothers>3</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьев Святослав Олегович</student_name>
+    <father_name>Афанасьев Олег Семенович</father_name>
+    <father_income>204678.99</father_income>
+    <mother_name>Афанасьева Татьяна Геннадиевна</mother_name>
+    <mother_income>165250.75</mother_income>
+    <brothers>0</brothers>
+    <sisters>4</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьева Людмила Олеговна</student_name>
+    <father_name>Афанасьев Олег Семенович</father_name>
+    <father_income>204678.99</father_income>
+    <mother_name>Афанасьева Татьяна Геннадиевна</mother_name>
+    <mother_income>165250.75</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьева Ирина Олеговна</student_name>
+    <father_name>Афанасьев Олег Семенович</father_name>
+    <father_income>204678.99</father_income>
+    <mother_name>Афанасьева Татьяна Геннадиевна</mother_name>
+    <mother_income>165250.75</mother_income>
+    <brothers>1</brothers>
+    <sisters>5</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьева Кристина Олеговна</student_name>
+    <father_name>Афанасьев Олег Семенович</father_name>
+    <father_income>204678.99</father_income>
+    <mother_name>Афанасьева Татьяна Геннадиевна</mother_name>
+    <mother_income>165250.75</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьева Раиса Олеговна</student_name>
+    <father_name>Афанасьев Олег Семенович</father_name>
+    <father_income>204678.99</father_income>
+    <mother_name>Афанасьева Татьяна Геннадиевна</mother_name>
+    <mother_income>165250.75</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Щербаков Тимур Павлович</student_name>
+    <father_name>Щербаков Павел Юрьевич</father_name>
+    <father_income>106610.22</father_income>
+    <mother_name>Щербакова Ирина Михайловна</mother_name>
+    <mother_income>211725.95</mother_income>
+    <brothers>3</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Щербаков Семен Павлович</student_name>
+    <father_name>Щербаков Павел Юрьевич</father_name>
+    <father_income>106610.22</father_income>
+    <mother_name>Щербакова Ирина Михайловна</mother_name>
+    <mother_income>211725.95</mother_income>
+    <brothers>3</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Щербакова Кристина Павловна</student_name>
+    <father_name>Щербаков Павел Юрьевич</father_name>
+    <father_income>106610.22</father_income>
+    <mother_name>Щербакова Ирина Михайловна</mother_name>
+    <mother_income>211725.95</mother_income>
+    <brothers>4</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Щербаков Владимир Павлович</student_name>
+    <father_name>Щербаков Павел Юрьевич</father_name>
+    <father_income>106610.22</father_income>
+    <mother_name>Щербакова Ирина Михайловна</mother_name>
+    <mother_income>211725.95</mother_income>
+    <brothers>3</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Щербаков Ростислав Павлович</student_name>
+    <father_name>Щербаков Павел Юрьевич</father_name>
+    <father_income>106610.22</father_income>
+    <mother_name>Щербакова Ирина Михайловна</mother_name>
+    <mother_income>211725.95</mother_income>
+    <brothers>3</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Орлов Борис Даниилович</student_name>
+    <father_name>Орлов Даниил Даниилович</father_name>
+    <father_income>44123.84</father_income>
+    <mother_name>Орлова Раиса Михайловна</mother_name>
+    <mother_income>26358.87</mother_income>
+    <brothers>1</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Орлов Руслан Даниилович</student_name>
+    <father_name>Орлов Даниил Даниилович</father_name>
+    <father_income>44123.84</father_income>
+    <mother_name>Орлова Раиса Михайловна</mother_name>
+    <mother_income>26358.87</mother_income>
+    <brothers>1</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Попов Юрий Степанович</student_name>
+    <father_name>Попов Степан Дмитриевич</father_name>
+    <father_income>94524.96</father_income>
+    <mother_name>Попова Карина Егоровна</mother_name>
+    <mother_income>154571.88</mother_income>
+    <brothers>1</brothers>
+    <sisters>4</sisters>
+  </student>
+  <student>
+    <student_name>Попова Маргарита Степановна</student_name>
+    <father_name>Попов Степан Дмитриевич</father_name>
+    <father_income>94524.96</father_income>
+    <mother_name>Попова Карина Егоровна</mother_name>
+    <mother_income>154571.88</mother_income>
+    <brothers>2</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Попов Вадим Степанович</student_name>
+    <father_name>Попов Степан Дмитриевич</father_name>
+    <father_income>94524.96</father_income>
+    <mother_name>Попова Карина Егоровна</mother_name>
+    <mother_income>154571.88</mother_income>
+    <brothers>1</brothers>
+    <sisters>6</sisters>
+  </student>
+  <student>
+    <student_name>Попова Маргарита Степановна</student_name>
+    <father_name>Попов Степан Дмитриевич</father_name>
+    <father_income>94524.96</father_income>
+    <mother_name>Попова Карина Егоровна</mother_name>
+    <mother_income>154571.88</mother_income>
+    <brothers>2</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Попова Кристина Степановна</student_name>
+    <father_name>Попов Степан Дмитриевич</father_name>
+    <father_income>94524.96</father_income>
+    <mother_name>Попова Карина Егоровна</mother_name>
+    <mother_income>154571.88</mother_income>
+    <brothers>2</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Попова Екатерина Степановна</student_name>
+    <father_name>Попов Степан Дмитриевич</father_name>
+    <father_income>94524.96</father_income>
+    <mother_name>Попова Карина Егоровна</mother_name>
+    <mother_income>154571.88</mother_income>
+    <brothers>2</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Борисова Вероника Егоровна</student_name>
+    <father_name>Борисов Егор Егорович</father_name>
+    <father_income>128626.61</father_income>
+    <mother_name>Борисова София Егоровна</mother_name>
+    <mother_income>144880.9</mother_income>
+    <brothers>2</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Борисова Ксения Егоровна</student_name>
+    <father_name>Борисов Егор Егорович</father_name>
+    <father_income>128626.61</father_income>
+    <mother_name>Борисова София Егоровна</mother_name>
+    <mother_income>144880.9</mother_income>
+    <brothers>2</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Борисов Владислав Егорович</student_name>
+    <father_name>Борисов Егор Егорович</father_name>
+    <father_income>128626.61</father_income>
+    <mother_name>Борисова София Егоровна</mother_name>
+    <mother_income>144880.9</mother_income>
+    <brothers>1</brothers>
+    <sisters>4</sisters>
+  </student>
+  <student>
+    <student_name>Борисова Ксения Егоровна</student_name>
+    <father_name>Борисов Егор Егорович</father_name>
+    <father_income>128626.61</father_income>
+    <mother_name>Борисова София Егоровна</mother_name>
+    <mother_income>144880.9</mother_income>
+    <brothers>2</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Борисов Олег Егорович</student_name>
+    <father_name>Борисов Егор Егорович</father_name>
+    <father_income>128626.61</father_income>
+    <mother_name>Борисова София Егоровна</mother_name>
+    <mother_income>144880.9</mother_income>
+    <brothers>1</brothers>
+    <sisters>4</sisters>
+  </student>
+  <student>
+    <student_name>Борисова Любовь Егоровна</student_name>
+    <father_name>Борисов Егор Егорович</father_name>
+    <father_income>128626.61</father_income>
+    <mother_name>Борисова София Егоровна</mother_name>
+    <mother_income>144880.9</mother_income>
+    <brothers>2</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Колесников Алексей Глебович</student_name>
+    <father_name>Колесников Глеб Егорович</father_name>
+    <father_income>261282.82</father_income>
+    <mother_name>Колесникова Диана Леонидовна</mother_name>
+    <mother_income>105059.42</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Колесникова Виктория Глебовна</student_name>
+    <father_name>Колесников Глеб Егорович</father_name>
+    <father_income>261282.82</father_income>
+    <mother_name>Колесникова Диана Леонидовна</mother_name>
+    <mother_income>105059.42</mother_income>
+    <brothers>2</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Колесникова Полина Глебовна</student_name>
+    <father_name>Колесников Глеб Егорович</father_name>
+    <father_income>261282.82</father_income>
+    <mother_name>Колесникова Диана Леонидовна</mother_name>
+    <mother_income>105059.42</mother_income>
+    <brothers>2</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Колесников Матвей Глебович</student_name>
+    <father_name>Колесников Глеб Егорович</father_name>
+    <father_income>261282.82</father_income>
+    <mother_name>Колесникова Диана Леонидовна</mother_name>
+    <mother_income>105059.42</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Колесникова Марина Глебовна</student_name>
+    <father_name>Колесников Глеб Егорович</father_name>
+    <father_income>261282.82</father_income>
+    <mother_name>Колесникова Диана Леонидовна</mother_name>
+    <mother_income>105059.42</mother_income>
+    <brothers>2</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Маслова Жанна Александровна</student_name>
+    <father_name>Маслов Александр Станиславович</father_name>
+    <father_income>315443.55</father_income>
+    <mother_name>Маслова Вера Григорьевна</mother_name>
+    <mother_income>36064.22</mother_income>
+    <brothers>2</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Маслова Юлия Александровна</student_name>
+    <father_name>Маслов Александр Станиславович</father_name>
+    <father_income>315443.55</father_income>
+    <mother_name>Маслова Вера Григорьевна</mother_name>
+    <mother_income>36064.22</mother_income>
+    <brothers>2</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Маслов Павел Александрович</student_name>
+    <father_name>Маслов Александр Станиславович</father_name>
+    <father_income>315443.55</father_income>
+    <mother_name>Маслова Вера Григорьевна</mother_name>
+    <mother_income>36064.22</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Маслов Ярослав Александрович</student_name>
+    <father_name>Маслов Александр Станиславович</father_name>
+    <father_income>315443.55</father_income>
+    <mother_name>Маслова Вера Григорьевна</mother_name>
+    <mother_income>36064.22</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Зайцев Кирилл Геннадиевич</student_name>
+    <father_name>Зайцев Геннадий Андреевич</father_name>
+    <father_income>105786.37</father_income>
+    <mother_name>Зайцева Диана Семеновна</mother_name>
+    <mother_income>109130.95</mother_income>
+    <brothers>1</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Зайцев Григорий Геннадиевич</student_name>
+    <father_name>Зайцев Геннадий Андреевич</father_name>
+    <father_income>105786.37</father_income>
+    <mother_name>Зайцева Диана Семеновна</mother_name>
+    <mother_income>109130.95</mother_income>
+    <brothers>1</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Исакова Елизавета Кирилловна</student_name>
+    <father_name>Исаков Кирилл Ярославович</father_name>
+    <father_income>169190.62</father_income>
+    <mother_name>Исакова Светлана Ростиславовна</mother_name>
+    <mother_income>227204.33</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Исакова Карина Кирилловна</student_name>
+    <father_name>Исаков Кирилл Ярославович</father_name>
+    <father_income>169190.62</father_income>
+    <mother_name>Исакова Светлана Ростиславовна</mother_name>
+    <mother_income>227204.33</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Исаков Вадим Кириллович</student_name>
+    <father_name>Исаков Кирилл Ярославович</father_name>
+    <father_income>169190.62</father_income>
+    <mother_name>Исакова Светлана Ростиславовна</mother_name>
+    <mother_income>227204.33</mother_income>
+    <brothers>1</brothers>
+    <sisters>4</sisters>
+  </student>
+  <student>
+    <student_name>Исакова Снежана Кирилловна</student_name>
+    <father_name>Исаков Кирилл Ярославович</father_name>
+    <father_income>169190.62</father_income>
+    <mother_name>Исакова Светлана Ростиславовна</mother_name>
+    <mother_income>227204.33</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Исакова Анастасия Кирилловна</student_name>
+    <father_name>Исаков Кирилл Ярославович</father_name>
+    <father_income>169190.62</father_income>
+    <mother_name>Исакова Светлана Ростиславовна</mother_name>
+    <mother_income>227204.33</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Громов Никита Егорович</student_name>
+    <father_name>Громов Егор Павлович</father_name>
+    <father_income>282685.64</father_income>
+    <mother_name>Громова Татьяна Витальевна</mother_name>
+    <mother_income>177331.2</mother_income>
+    <brothers>2</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Громов Геннадий Егорович</student_name>
+    <father_name>Громов Егор Павлович</father_name>
+    <father_income>282685.64</father_income>
+    <mother_name>Громова Татьяна Витальевна</mother_name>
+    <mother_income>177331.2</mother_income>
+    <brothers>2</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Громов Тимур Егорович</student_name>
+    <father_name>Громов Егор Павлович</father_name>
+    <father_income>282685.64</father_income>
+    <mother_name>Громова Татьяна Витальевна</mother_name>
+    <mother_income>177331.2</mother_income>
+    <brothers>2</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Громова Варвара Егоровна</student_name>
+    <father_name>Громов Егор Павлович</father_name>
+    <father_income>282685.64</father_income>
+    <mother_name>Громова Татьяна Витальевна</mother_name>
+    <mother_income>177331.2</mother_income>
+    <brothers>3</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Егорова Ангелина Тимофеевна</student_name>
+    <father_name>Егоров Тимофей Федорович</father_name>
+    <father_income>331157.17</father_income>
+    <mother_name>Егорова Маргарита Ярославовна</mother_name>
+    <mother_income>279544.32</mother_income>
+    <brothers>2</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Егоров Арсений Тимофеевич</student_name>
+    <father_name>Егоров Тимофей Федорович</father_name>
+    <father_income>331157.17</father_income>
+    <mother_name>Егорова Маргарита Ярославовна</mother_name>
+    <mother_income>279544.32</mother_income>
+    <brothers>1</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Егоров Вадим Тимофеевич</student_name>
+    <father_name>Егоров Тимофей Федорович</father_name>
+    <father_income>331157.17</father_income>
+    <mother_name>Егорова Маргарита Ярославовна</mother_name>
+    <mother_income>279544.32</mother_income>
+    <brothers>1</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Козлов Евгений Ростиславович</student_name>
+    <father_name>Козлов Ростислав Алексеевич</father_name>
+    <father_income>93104.16</father_income>
+    <mother_name>Козлова Алина Семеновна</mother_name>
+    <mother_income>190039.83</mother_income>
+    <brothers>0</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Козлова Снежана Ростиславовна</student_name>
+    <father_name>Козлов Ростислав Алексеевич</father_name>
+    <father_income>93104.16</father_income>
+    <mother_name>Козлова Алина Семеновна</mother_name>
+    <mother_income>190039.83</mother_income>
+    <brothers>1</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Козлова Дарья Ростиславовна</student_name>
+    <father_name>Козлов Ростислав Алексеевич</father_name>
+    <father_income>93104.16</father_income>
+    <mother_name>Козлова Алина Семеновна</mother_name>
+    <mother_income>190039.83</mother_income>
+    <brothers>1</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Блинова Александра Витальевна</student_name>
+    <father_name>Блинов Виталий Даниилович</father_name>
+    <father_income>155800.49</father_income>
+    <mother_name>Блинова Наталья Тимофеевна</mother_name>
+    <mother_income>196157.51</mother_income>
+    <brothers>0</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Блинова Дарья Витальевна</student_name>
+    <father_name>Блинов Виталий Даниилович</father_name>
+    <father_income>155800.49</father_income>
+    <mother_name>Блинова Наталья Тимофеевна</mother_name>
+    <mother_income>196157.51</mother_income>
+    <brothers>0</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Родионова Милана Ярославовна</student_name>
+    <father_name>Родионов Ярослав Матвеевич</father_name>
+    <father_income>264204.14</father_income>
+    <mother_name>Родионова Юлия Константиновна</mother_name>
+    <mother_income>42907.69</mother_income>
+    <brothers>2</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Шестакова Ангелина Вадимовна</student_name>
+    <father_name>Шестаков Вадим Юрьевич</father_name>
+    <father_income>166348.97</father_income>
+    <mother_name>Шестакова Елена Ивановна</mother_name>
+    <mother_income>189662.14</mother_income>
+    <brothers>1</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Шестаков Алексей Вадимович</student_name>
+    <father_name>Шестаков Вадим Юрьевич</father_name>
+    <father_income>166348.97</father_income>
+    <mother_name>Шестакова Елена Ивановна</mother_name>
+    <mother_income>189662.14</mother_income>
+    <brothers>0</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Виноградов Андрей Станиславович</student_name>
+    <father_name>Виноградов Станислав Александрович</father_name>
+    <father_income>171108.77</father_income>
+    <mother_name>Виноградова Людмила Максимовна</mother_name>
+    <mother_income>32204.21</mother_income>
+    <brothers>2</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Виноградов Николай Станиславович</student_name>
+    <father_name>Виноградов Станислав Александрович</father_name>
+    <father_income>171108.77</father_income>
+    <mother_name>Виноградова Людмила Максимовна</mother_name>
+    <mother_income>32204.21</mother_income>
+    <brothers>2</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Виноградов Валерий Станиславович</student_name>
+    <father_name>Виноградов Станислав Александрович</father_name>
+    <father_income>171108.77</father_income>
+    <mother_name>Виноградова Людмила Максимовна</mother_name>
+    <mother_income>32204.21</mother_income>
+    <brothers>2</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Исакова Варвара Сергеевна</student_name>
+    <father_name>Исаков Сергей Игоревич</father_name>
+    <father_income>153819.74</father_income>
+    <mother_name>Исакова Анна Тимуровна</mother_name>
+    <mother_income>271500.68</mother_income>
+    <brothers>1</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Исаков Игорь Сергеевич</student_name>
+    <father_name>Исаков Сергей Игоревич</father_name>
+    <father_income>153819.74</father_income>
+    <mother_name>Исакова Анна Тимуровна</mother_name>
+    <mother_income>271500.68</mother_income>
+    <brothers>0</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Миронова Александра Геннадиевна</student_name>
+    <father_name>Миронов Геннадий Тимурович</father_name>
+    <father_income>218384.04</father_income>
+    <mother_name>Миронова Марина Леонидовна</mother_name>
+    <mother_income>182396.06</mother_income>
+    <brothers>2</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Миронов Аркадий Геннадиевич</student_name>
+    <father_name>Миронов Геннадий Тимурович</father_name>
+    <father_income>218384.04</father_income>
+    <mother_name>Миронова Марина Леонидовна</mother_name>
+    <mother_income>182396.06</mother_income>
+    <brothers>1</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Миронов Иван Геннадиевич</student_name>
+    <father_name>Миронов Геннадий Тимурович</father_name>
+    <father_income>218384.04</father_income>
+    <mother_name>Миронова Марина Леонидовна</mother_name>
+    <mother_income>182396.06</mother_income>
+    <brothers>1</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Мельникова Тамара Тимофеевна</student_name>
+    <father_name>Мельников Тимофей Семенович</father_name>
+    <father_income>146911.24</father_income>
+    <mother_name>Мельникова Жанна Матвеевна</mother_name>
+    <mother_income>264014.22</mother_income>
+    <brothers>2</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Мельников Даниил Тимофеевич</student_name>
+    <father_name>Мельников Тимофей Семенович</father_name>
+    <father_income>146911.24</father_income>
+    <mother_name>Мельникова Жанна Матвеевна</mother_name>
+    <mother_income>264014.22</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Мельникова Мария Тимофеевна</student_name>
+    <father_name>Мельников Тимофей Семенович</father_name>
+    <father_income>146911.24</father_income>
+    <mother_name>Мельникова Жанна Матвеевна</mother_name>
+    <mother_income>264014.22</mother_income>
+    <brothers>2</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Мельников Сергей Тимофеевич</student_name>
+    <father_name>Мельников Тимофей Семенович</father_name>
+    <father_income>146911.24</father_income>
+    <mother_name>Мельникова Жанна Матвеевна</mother_name>
+    <mother_income>264014.22</mother_income>
+    <brothers>1</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Мельникова Надежда Тимофеевна</student_name>
+    <father_name>Мельников Тимофей Семенович</father_name>
+    <father_income>146911.24</father_income>
+    <mother_name>Мельникова Жанна Матвеевна</mother_name>
+    <mother_income>264014.22</mother_income>
+    <brothers>4</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Федоров Леонид Тимофеевич</student_name>
+    <father_name>Федоров Тимофей Станиславович</father_name>
+    <father_income>344561.51</father_income>
+    <mother_name>Федорова Юлия Тимофеевна</mother_name>
+    <mother_income>146697.94</mother_income>
+    <brothers>2</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Федоров Глеб Тимофеевич</student_name>
+    <father_name>Федоров Тимофей Станиславович</father_name>
+    <father_income>344561.51</father_income>
+    <mother_name>Федорова Юлия Тимофеевна</mother_name>
+    <mother_income>146697.94</mother_income>
+    <brothers>2</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Федорова Ирина Тимофеевна</student_name>
+    <father_name>Федоров Тимофей Станиславович</father_name>
+    <father_income>344561.51</father_income>
+    <mother_name>Федорова Юлия Тимофеевна</mother_name>
+    <mother_income>146697.94</mother_income>
+    <brothers>3</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Федоров Сергей Тимофеевич</student_name>
+    <father_name>Федоров Тимофей Станиславович</father_name>
+    <father_income>344561.51</father_income>
+    <mother_name>Федорова Юлия Тимофеевна</mother_name>
+    <mother_income>146697.94</mother_income>
+    <brothers>2</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьева Ульяна Романовна</student_name>
+    <father_name>Афанасьев Роман Федорович</father_name>
+    <father_income>202222.04</father_income>
+    <mother_name>Афанасьева Юлия Алексеевна</mother_name>
+    <mother_income>132783.48</mother_income>
+    <brothers>3</brothers>
+    <sisters>0</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьев Михаил Романович</student_name>
+    <father_name>Афанасьев Роман Федорович</father_name>
+    <father_income>202222.04</father_income>
+    <mother_name>Афанасьева Юлия Алексеевна</mother_name>
+    <mother_income>132783.48</mother_income>
+    <brothers>2</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьев Петр Романович</student_name>
+    <father_name>Афанасьев Роман Федорович</father_name>
+    <father_income>202222.04</father_income>
+    <mother_name>Афанасьева Юлия Алексеевна</mother_name>
+    <mother_income>132783.48</mother_income>
+    <brothers>2</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьев Глеб Романович</student_name>
+    <father_name>Афанасьев Роман Федорович</father_name>
+    <father_income>202222.04</father_income>
+    <mother_name>Афанасьева Юлия Алексеевна</mother_name>
+    <mother_income>132783.48</mother_income>
+    <brothers>2</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьева Вера Руслановна</student_name>
+    <father_name>Афанасьев Руслан Матвеевич</father_name>
+    <father_income>88251.18</father_income>
+    <mother_name>Афанасьева Дарья Михайловна</mother_name>
+    <mother_income>240878.12</mother_income>
+    <brothers>1</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьев Роман Русланович</student_name>
+    <father_name>Афанасьев Руслан Матвеевич</father_name>
+    <father_income>88251.18</father_income>
+    <mother_name>Афанасьева Дарья Михайловна</mother_name>
+    <mother_income>240878.12</mother_income>
+    <brothers>0</brothers>
+    <sisters>3</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьева Галина Руслановна</student_name>
+    <father_name>Афанасьев Руслан Матвеевич</father_name>
+    <father_income>88251.18</father_income>
+    <mother_name>Афанасьева Дарья Михайловна</mother_name>
+    <mother_income>240878.12</mother_income>
+    <brothers>1</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Афанасьева Елена Руслановна</student_name>
+    <father_name>Афанасьев Руслан Матвеевич</father_name>
+    <father_income>88251.18</father_income>
+    <mother_name>Афанасьева Дарья Михайловна</mother_name>
+    <mother_income>240878.12</mother_income>
+    <brothers>1</brothers>
+    <sisters>2</sisters>
+  </student>
+  <student>
+    <student_name>Громова Ульяна Тимуровна</student_name>
+    <father_name>Громов Тимур Александрович</father_name>
+    <father_income>290069.93</father_income>
+    <mother_name>Громова Дарья Вячеславовна</mother_name>
+    <mother_income>181567.3</mother_income>
+    <brothers>1</brothers>
+    <sisters>1</sisters>
+  </student>
+  <student>
+    <student_name>Громов Арсений Тимурович</student_name>
+    <father_name>Громов Тимур Александрович</father_name>
+    <father_income>290069.93</father_income>
+    <mother_name>Громова Дарья Вячеславовна</mother_name>
+    <mother_income>181567.3</mother_income>
+    <brothers>0</brothers>
+    <sisters>2</sisters>
+  </student>
+</students>
