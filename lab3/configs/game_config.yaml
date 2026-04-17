@@ -1,0 +1,13 @@
+board:
+  size: 8
+  cell_size: 80
+  
+colors:
+  light_cell: "#f0d9b5"
+  dark_cell: "#b58863"
+  highlight: "#ffff00"
+  possible_move: "#00ff00"
+  
+game:
+  animation_speed: 0.2  # секунды на анимацию
+  records_file: "records.yaml"
