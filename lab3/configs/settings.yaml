@@ -1,0 +1,16 @@
+screen:
+  width: 800
+  height: 800
+  caption: "Шашки - Checkers"
+
+fps: 60
+
+sound:
+  music_volume: 0.3
+  effects_volume: 0.5
+  
+paths:
+  music: "assets/sounds/background.mp3"
+  click_sound: "assets/sounds/click.wav"
+  capture_sound: "assets/sounds/capture.mp3"
+  move_sound: "assets/sounds/move.wav"
