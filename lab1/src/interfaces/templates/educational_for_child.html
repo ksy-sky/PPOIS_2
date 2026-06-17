@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-title">Занятие с {{ child.name }}</div>
+    <p style="margin-bottom: 1rem; color: #7f8c8d;">Возраст: {{ child.age }} лет</p>
+    
+    {% if child.state != 'awake' %}
+        <div class="alert alert-error">
+            {{ child.name }} не может начать занятие (сейчас {{ child.state }})
+            {% if child.state == 'hungry' %}
+                <a href="{{ url_for('main.feed_child', name=child.name) }}">Сначала покормите</a>
+            {% elif child.state == 'sleeping' %}
+                <a href="{{ url_for('main.wake_up', name=child.name) }}">Сначала разбудите</a>
+            {% endif %}
+        </div>
+    {% elif not lessons %}
+        <div class="alert alert-error">
+            Нет подходящих занятий для {{ child.name }}
+            <a href="{{ url_for('main.add_game') }}">Добавить занятие</a>
+        </div>
+    {% else %}
+        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            {% for lesson in lessons %}
+                <a href="{{ url_for('main.start_lesson_for_child', name=child.name, lesson_name=lesson.name) }}" 
+                   style="display: block; padding: 1rem; background: #f8f9fa; border-radius: 8px; text-decoration: none; color: #2c3e50; border: 1px solid #e1e4e8;">
+                    <strong>{{ lesson.name }}</strong>
+                    <span style="color: #7f8c8d; font-size: 0.8rem;">({{ lesson.min_age }}-{{ lesson.max_age }} лет)</span>
+                    <p style="font-size: 0.85rem; margin-top: 0.25rem; color: #555;">{{ lesson.description }}</p>
+                    {% if lesson.required_materials %}
+                        <span class="badge" style="margin-top: 0.25rem;">Материалы: {{ lesson.required_materials|join(', ') }}</span>
+                    {% endif %}
+                </a>
+            {% endfor %}
+        </div>
+    {% endif %}
+    
+    <hr style="margin: 1.5rem 0 1rem 0;">
+    <a href="{{ url_for('main.index') }}" class="btn btn-outline">На главную</a>
+</div>
+{% endblock %}

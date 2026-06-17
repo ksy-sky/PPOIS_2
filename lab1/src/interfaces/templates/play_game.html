@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-title">Начать игру</div>
+    
+    {% if not children %}
+        <p class="alert alert-error">Нет детей в саду</p>
+    {% elif not games %}
+        <p class="alert alert-error">Нет доступных игр. <a href="{{ url_for('main.add_game') }}">Добавьте игру</a></p>
+    {% else %}
+        <form method="POST">
+            <div class="form-group">
+                <label class="form-label">Ребенок</label>
+                <select name="child_name" class="form-control" required>
+                    <option value="">-- Выберите ребенка --</option>
+                    {% for child in children %}
+                        <option value="{{ child.name }}">{{ child.name }} ({{ child.age }} лет, {{ child.state }})</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Игра</label>
+                <select name="game_name" class="form-control" required>
+                    <option value="">-- Выберите игру --</option>
+                    {% for game in games %}
+                        <option value="{{ game.name }}">{{ game.name }} ({{ game.min_age }}-{{ game.max_age }} лет)</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Начать игру</button>
+            <a href="{{ url_for('main.index') }}" class="btn btn-outline">Отмена</a>
+        </form>
+    {% endif %}
+</div>
+{% endblock %}

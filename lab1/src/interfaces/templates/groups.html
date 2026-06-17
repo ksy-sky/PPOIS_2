@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-title">Список групп</div>
+    
+    <div class="group-grid">
+        {% for group in groups %}
+            <div class="group-card">
+                <div class="group-header">
+                    <div class="group-title">{{ group.name }}</div>
+                    <div class="group-age">{{ group.min_age }}-{{ group.max_age }} лет</div>
+                </div>
+                <div class="group-body">
+                    <p style="margin-bottom: 0.75rem;">
+                        Детей: <strong>{{ group.get_count() }}</strong> из {{ group.capacity }}
+                    </p>
+                    
+                    {% if group.get_children() %}
+                        <hr style="margin: 0.5rem 0;">
+                        <ul class="group-children">
+                            {% for child in group.get_children() %}
+                                <li>
+                                    {{ child.name }}
+                                    <span style="color: #7f8c8d; font-size: 0.7rem;">({{ child.age }} лет, {{ child.state }})</span>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        <p style="color: #7f8c8d; margin-top: 0.5rem;">В группе нет детей</p>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

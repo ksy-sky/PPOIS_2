@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-title">Назначение ребенка в группу</div>
+    
+    <form method="POST">
+        <div class="form-group">
+            <label class="form-label">Ребенок</label>
+            <select name="child_name" class="form-control" required>
+                <option value="">-- Выберите ребенка --</option>
+                {% for child in children %}
+                    <option value="{{ child.name }}">{{ child.name }} ({{ child.age }} лет)</option>
+                {% endfor %}
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label class="form-label">Группа</label>
+            <select name="group_name" class="form-control" required>
+                <option value="">-- Выберите группу --</option>
+                {% for group in groups %}
+                    <option value="{{ group.name }}">{{ group.name }} ({{ group.min_age }}-{{ group.max_age }} лет, детей: {{ group.get_count() }}/{{ group.capacity }})</option>
+                {% endfor %}
+            </select>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Назначить</button>
+        <a href="{{ url_for('main.index') }}" class="btn btn-outline">Отмена</a>
+    </form>
+</div>
+{% endblock %}

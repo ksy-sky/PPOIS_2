@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-title">Воспитатель</div>
+    <p style="font-size: 1.1rem; font-weight: 500;">{{ teacher.name }}</p>
+</div>
+
+<div class="card">
+    <div class="card-title">
+        Дети в саду
+        <span class="badge" style="margin-left: 0.5rem; background-color: #e2e3e5; color: #383d41;">{{ children|length }}</span>
+    </div>
+    
+    {% if children %}
+        <ul class="child-list">
+        {% for child in children %}
+            <li class="child-item">
+                <div class="child-info">
+                    <span class="child-name">{{ child.name }}</span>
+                    <span class="child-age">{{ child.age }} лет</span>
+                    <span class="child-state">
+                        {% if child.state == 'hungry' %}
+                            <span class="badge badge-hungry">голоден</span>
+                        {% elif child.state == 'sleeping' %}
+                            <span class="badge badge-sleeping">спит</span>
+                        {% elif child.state == 'playing' %}
+                            <span class="badge badge-playing">играет</span>
+                        {% elif child.state == 'awake' %}
+                            <span class="badge badge-awake">бодрствует</span>
+                        {% elif child.state == 'left' %}
+                            <span class="badge badge-left">дома</span>
+                        {% endif %}
+                    </span>
+                </div>
+                <div class="child-actions">
+                    {% if child.state != 'left' %}
+                        {% if child.state == 'hungry' %}
+                            <a href="{{ url_for('main.feed_child', name=child.name) }}" class="btn btn-sm btn-primary">Покормить</a>
+                        {% endif %}
+                        
+                        {% if child.state in ['awake', 'playing'] %}
+                            <a href="{{ url_for('main.put_to_sleep', name=child.name) }}" class="btn btn-sm btn-outline">Уложить</a>
+                        {% endif %}
+                        
+                        {% if child.state == 'sleeping' %}
+                            <a href="{{ url_for('main.wake_up', name=child.name) }}" class="btn btn-sm btn-outline">Разбудить</a>
+                        {% endif %}
+                        
+                        {% if child.state == 'playing' %}
+                            <a href="{{ url_for('main.finish_game', name=child.name) }}" class="btn btn-sm btn-outline">Закончить игру</a>
+                        {% endif %}
+                        
+                        {% if child.state == 'awake' %}
+                            <a href="{{ url_for('main.play_for_child', name=child.name) }}" class="btn btn-sm btn-primary">Играть</a>
+                            <a href="{{ url_for('main.educational_for_child', name=child.name) }}" class="btn btn-sm btn-primary">Занятие</a>
+                        {% endif %}
+                        
+                        <a href="{{ url_for('main.pickup', name=child.name) }}" class="btn btn-sm btn-outline">Забрать</a>
+                    {% else %}
+                        <a href="{{ url_for('main.drop_off', name=child.name) }}" class="btn btn-sm btn-primary">Привести</a>
+                    {% endif %}
+                </div>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p class="text-center" style="color: #7f8c8d; padding: 2rem;">Нет детей в саду</p>
+    {% endif %}
+</div>
+
+<div class="card">
+    <div class="card-title">Учебные материалы</div>
+    {% if materials %}
+        <table class="table">
+            <thead>
+                <tr><th>Название</th><th>Количество</th></tr>
+            </thead>
+            <tbody>
+            {% for material in materials %}
+                <tr>
+                    <td>{{ material.title }}</td>
+                    <td>{{ material.quantity }} шт.</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p style="color: #7f8c8d;">Нет добавленных материалов</p>
+    {% endif %}
+</div>
+
+<div class="card">
+    <div class="card-title">Игры и занятия</div>
+    {% if games %}
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Тип</th>
+                    <th>Название</th>
+                    <th>Возраст</th>
+                    <th>Материалы</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for game in games %}
+                <tr>
+                    <td>{% if game.is_educational %}Учебное занятие{% else %}Игра{% endif %}</td>
+                    <td>{{ game.name }}</td>
+                    <td>{{ game.min_age }}-{{ game.max_age }} лет</td>
+                    <td>{% if game.required_materials %}{{ game.required_materials|join(', ') }}{% else %}—{% endif %}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p style="color: #7f8c8d;">Нет добавленных игр или занятий</p>
+    {% endif %}
+</div>
+
+<div class="card">
+    <div class="card-title">Группы</div>
+    <div class="group-grid">
+        {% for group in groups %}
+            <div class="group-card">
+                <div class="group-header">
+                    <div class="group-title">{{ group.name }}</div>
+                    <div class="group-age">{{ group.min_age }}-{{ group.max_age }} лет</div>
+                </div>
+                <div class="group-body">
+                    <p>Детей: {{ group.get_count() }} / {{ group.capacity }}</p>
+                    {% if group.get_children() %}
+                        <ul class="group-children">
+                        {% for child in group.get_children()[:3] %}
+                            <li>{{ child.name }} ({{ child.age }} лет)</li>
+                        {% endfor %}
+                        {% if group.get_children()|length > 3 %}
+                            <li style="color: #7f8c8d;">и ещё {{ group.get_children()|length - 3 }}...</li>
+                        {% endif %}
+                        </ul>
+                    {% else %}
+                        <p style="color: #7f8c8d; font-size: 0.8rem;">Нет детей</p>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

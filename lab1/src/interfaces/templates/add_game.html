@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-title">Добавление игры или занятия</div>
+    
+    <form method="POST">
+        <div class="form-group">
+            <label class="form-label">Название</label>
+            <input type="text" name="name" class="form-control" required>
+        </div>
+        
+        <div class="form-group">
+            <label class="form-label">Описание</label>
+            <textarea name="description" class="form-control" rows="3" placeholder="Краткое описание игры или занятия"></textarea>
+        </div>
+        
+        <div class="form-group">
+            <label class="form-label">Минимальный возраст</label>
+            <input type="number" name="min_age" class="form-control" min="1" max="7" required>
+        </div>
+        
+        <div class="form-group">
+            <label class="form-label">Максимальный возраст</label>
+            <input type="number" name="max_age" class="form-control" min="1" max="7" required>
+        </div>
+        
+        <div class="form-group">
+            <label class="form-label">Требуемые материалы (через запятую)</label>
+            <input type="text" name="required_materials" class="form-control" placeholder="например: пластилин, бумага">
+        </div>
+        
+        <div class="form-group">
+            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input type="checkbox" name="is_educational" style="width: auto;">
+                <span>Это учебное занятие (требует материалы, нельзя прервать)</span>
+            </label>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Добавить</button>
+        <a href="{{ url_for('main.index') }}" class="btn btn-outline">Отмена</a>
+    </form>
+</div>
+{% endblock %}

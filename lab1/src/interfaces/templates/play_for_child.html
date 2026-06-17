@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-title">Играть с {{ child.name }}</div>
+    <p style="margin-bottom: 1rem; color: #7f8c8d;">Возраст: {{ child.age }} лет</p>
+    
+    {% if child.state != 'awake' %}
+        <div class="alert alert-error">
+            {{ child.name }} не может играть (сейчас {{ child.state }})
+            {% if child.state == 'hungry' %}
+                <a href="{{ url_for('main.feed_child', name=child.name) }}">Сначала покормите</a>
+            {% elif child.state == 'sleeping' %}
+                <a href="{{ url_for('main.wake_up', name=child.name) }}">Сначала разбудите</a>
+            {% endif %}
+        </div>
+    {% else %}
+        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            {% for game in games %}
+                <a href="{{ url_for('main.start_game_for_child', name=child.name, game_name=game.name) }}" 
+                   style="display: block; padding: 1rem; background: #f8f9fa; border-radius: 8px; text-decoration: none; color: #2c3e50; border: 1px solid #e1e4e8;">
+                    <strong>{{ game.name }}</strong>
+                    <span style="color: #7f8c8d; font-size: 0.8rem;">({{ game.min_age }}-{{ game.max_age }} лет)</span>
+                    <p style="font-size: 0.85rem; margin-top: 0.25rem; color: #555;">{{ game.description }}</p>
+                </a>
+            {% endfor %}
+        </div>
+    {% endif %}
+    
+    <hr style="margin: 1.5rem 0 1rem 0;">
+    <a href="{{ url_for('main.index') }}" class="btn btn-outline">На главную</a>
+</div>
+{% endblock %}
